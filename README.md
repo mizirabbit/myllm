@@ -2,17 +2,17 @@
 classDiagram
     direction TB
 
-    subgraph App Layer {
+    subgraph "App Layer" {
         ClientApp
     }
 
-    subgraph Framework Layer {
+    subgraph "Framework Layer" {
         ILlmService
         ILlmCallback
         LlmService
     }
 
-    subgraph HAL Layer {
+    subgraph "HAL Layer" {
         IGenieHal
         IGenieHalCallback
         GenieHalService
